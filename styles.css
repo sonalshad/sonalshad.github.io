@@ -5,17 +5,25 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
+    font-size: 14px;
 }
 
-h1 {
+h1 { 
     color: #4CAF50;
     text-align: center;
-    margin-top: 50px;
+    
+}
+
+h2, h3 {
+    color: #4CAF50;
+    text-align: left;
 }
 
 p {
-    font-size: 14px;
+    font-size: 0.9em;
     text-align: left;
+    color: #555
+    margin-bottom: 1em;
 }
 
 ul {
