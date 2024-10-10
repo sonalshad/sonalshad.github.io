@@ -9,13 +9,15 @@
         /* Flexbox Two-Column List Style */
         .two-column-list {
             display: flex;
-            flex-wrap: wrap;
-            max-width: 400px; /* Adjust this width as needed */
-            list-style-type: disc; /* Optional: Use disc bullets */
-            padding-left: 20px; /* Space for the bullets */
+            flex-wrap: wrap;           /* Allow wrapping */
+            justify-content: flex-start;
+            max-width: 400px;           /* Set the width to fit two columns */
+            /*list-style-type: disc;      /* Optional: Use disc bullets */
+            /*padding-left: 20px;         /* Space for the bullets */
         }
         .two-column-list li {
-            width: 50%; /* Each item takes up half the width */
+            width: 50%;                 /* Each item takes up half the width */
+            box-sizing: border-box;      /* Make sure padding doesn't exceed the width */
         }
     </style>
 </head>
@@ -32,6 +34,8 @@
                 in breast cancer, COVID-19, rheumatology & immunology, among others. 
             </p>
             <p> I now have experience with: </p>
+
+            <!-- Two-Column List Using Flexbox -->
             <ul class="two-column-list">
                 <li>Python</li>
                 <li>R</li>
@@ -40,6 +44,7 @@
                 <li>Machine Learning</li>
                 <li>Deep Learning</li>
             </ul>
+
             <ul>
                 <li><a href="http://www.linkedin.com/in/sonalshad">LinkedIn</a></li>
                 <li><a href="https://scholar.google.com/citations?user=rW6HeYTJlQcC&hl=en&oi=ao">Publications</a></li>
