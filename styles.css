@@ -18,7 +18,7 @@ h2, h3 {
 }
 
 p {
-    font-size: 0.9em;
+    font-size: 1em;
     text-align: left;
     color: #555; /* Fixed missing semicolon here */
     margin-bottom: 1em;
@@ -26,8 +26,8 @@ p {
 
 /* Skill List Styling (Removed bullets) */
 .skill-list {
-    font-size: 1.1em;
-    list-style-type: none; /* Ensure no bullets */
+    font-size: 0.9em;
+    list-style-type: disc; /* Ensure no bullets */
     padding: 0;           /* Remove padding */
     margin: 0;            /* Remove margin */
 }
@@ -63,19 +63,4 @@ a:hover {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 100px;
-}
-
-/* Two Column List for Skills */
-.two-column-list {
-    display: flex;
-    flex-wrap: wrap;       /* Ensures items wrap into multiple rows */
-    max-width: 600px;      /* Adjust the width to create two columns */
-    list-style-type: none; /* No bullets */
-    padding-left: 0;      /* Remove padding for bullets */
-    gap: 10px;            /* Space between items */
-}
-
-.two-column-list li {
-    width: 45%;           /* Set width to ensure two items per row */
-    box-sizing: border-box; /* Prevent padding from breaking the layout */
 }
