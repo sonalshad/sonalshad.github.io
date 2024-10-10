@@ -1,6 +1,6 @@
 /* General Styling */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
@@ -14,8 +14,8 @@ h1 {
 }
 
 p {
-    font-size: 18px;
-    text-align: center;
+    font-size: 14px;
+    text-align: left;
 }
 
 ul {
@@ -47,3 +47,17 @@ a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 100px;
 }
+
+.two-column-list {
+            display: flex;
+            flex-wrap: wrap;       /* Ensures items wrap into multiple rows */
+            max-width: 600px;      /* Adjust the width to create two columns */
+            list-style-type: disc; /* Display bullets */
+            padding-left: 20px;    /* Spacing for bullets */
+            gap: 10px;             /* Optional: Space between items */
+        }
+
+        .two-column-list li {
+            width: 45%; /* Set width to ensure two items per row */
+            box-sizing: border-box; /* Prevent padding from breaking the layout */
+        }
