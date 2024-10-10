@@ -26,11 +26,12 @@ p {
 }
 
 ul {
-    font-size: 0.8em;
+    font-size: 1.1em;
     list-style-type: none;
     padding: 0;
     display: flex;
     justify-content: left;
+    width: 33.33%
 }
 
 a {
