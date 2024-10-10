@@ -15,7 +15,6 @@ h1 {
 }
 
 h2, h3 {
-    color: #4CAF50;
     text-align: left;
 }
 
@@ -27,6 +26,7 @@ p {
 }
 
 ul {
+    font-size: 0.8em;
     list-style-type: none;
     padding: 0;
     display: flex;
