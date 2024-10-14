@@ -27,7 +27,7 @@ p {
 /* Skill List Styling (Removed bullets) */
 .skill-list {
     font-size: 0.9em;
-    list-style-type: disc; /* Ensure no bullets */
+    list-style-type: none; /* Ensure no bullets */
     padding: 0;           /* Remove padding */
     margin: 0;            /* Remove margin */
 }
